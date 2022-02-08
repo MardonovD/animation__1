@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #ececec;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 40rem;
+  height: 40rem;
+  margin: 10rem auto;
+ 
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circl__1 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #1164a6;
+  position: absolute;
+  top: 0;
+
+  animation-name: circl--1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__2 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #12b5d8;
+  position: absolute;
+  right: 4rem;
+  top: 6rem;
+  animation-name: circl--2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__3 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #45b69a;
+  position: absolute;
+  right: 0;
+
+  animation-name: circl--3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__4 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #40a722;
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+
+  animation-name: circl--4;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__5 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #9cc119;
+  position: absolute;
+  bottom: 0;
+
+  animation-name: circl--5;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__6 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #e84b7e;
+  position: absolute;
+  left: 5rem;
+  bottom: 5rem;
+
+  animation-name: circl--6;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+.circl__7 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #9c398b;
+  position: absolute;
+  left: 0;
+
+  animation-name: circl--7;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+.circl__8 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+
+  animation-name: circl--8;
+  animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+
+@keyframes circl--1{
+  from{
+opacity: 1;
+
+  }
+  to{
+   transform: translate(0 , 17.5rem) scale(1.5);
+   
+  }
+}
+
+@keyframes circl--2{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(-13rem ,11.2rem) scale(1.5);
+
+  }
+}
+
+@keyframes circl--3{
+  0%{
+opacity: 1;
+
+  }
+  100%{
+transform: translate(-17.5rem,0) scale(1.5);
+
+  }
+}
+
+@keyframes circl--4{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(-12rem ,-13rem) scale(1.5);
+  }
+}
+
+@keyframes circl--5{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(0 , -17.5rem) scale(1.5);
+  }
+}
+
+@keyframes circl--6{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(12.5rem ,-13rem) scale(1.5);
+  }
+}
+
+@keyframes circl--7{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(17.5rem ,0) scale(1.5);
+  }
+}
+
+@keyframes circl--8{
+  from{
+opacity: 1;
+
+  }
+  to{
+transform: translate(12.5rem ,12rem) scale(1.5);
+
+  }
+}
+
+
+
